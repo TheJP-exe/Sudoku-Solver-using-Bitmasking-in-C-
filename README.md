@@ -1,2 +1,15 @@
-# Sudoku-Solver-using-Bitmasking-in-C-
-A fast and efficient Sudoku solver implemented in C++ using recursive backtracking and bitmasking. This program reads a partially filled 9x9 Sudoku grid, solves it by pruning invalid placements with bit manipulation for rows, columns, and 3x3 boxes, and prints the completed puzzle.
+# Sudoku-Solver-using-Bitmasking-in-C++
+
+A fast and efficient C++ program to solve 9x9 Sudoku puzzles using recursive backtracking and bitmasking for optimization.
+## 🧩 Features
+- Solves any valid Sudoku grid
+- Uses bitmasking for fast constraint checking
+- Optimized for performance
+- Easy to run on VS Code or Google Colab
+
+## 🚀 How to Run
+
+### Locally
+```bash
+g++ sudoku_solver.cpp -o sudoku_solver
+./sudoku_solver
